@@ -33,3 +33,18 @@ function multiply(num1, num2){
     return num1 * num2;
 }
 console.log(multiply(2, 4));
+
+function add(num1,num2){
+    if(num1 === num2 ){
+        let sum = num1 + num2;
+        return sum * 3
+    }else{
+        return num1 + num2;
+    }
+   
+    
+    
+}
+console.log(add(5,5))
+
+
