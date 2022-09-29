@@ -48,3 +48,14 @@ function add(num1,num2){
 console.log(add(5,5))
 
 
+function isNegative(num){
+    if (num < 0 ){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(isNegative(3))
+
+
