@@ -24,7 +24,12 @@ multiplesOfThreeOrFive();
 
 function untilNum(num){
     for(let i = 1;i <= num; i++){
-        console.log(i)
+        console.log(i);
     }
 }
 untilNum(20);
+
+function multiply(num1, num2){
+    return num1 * num2;
+}
+console.log(multiply(2, 4));
